@@ -21,5 +21,8 @@ int main()
                         //delays by the time of 1000000 incrementations (depends on computer speed)
     };
     
+    
+    system("pause");   /* oczekiwanie na wciśnięcie dowolnego klawisza */
+    
 return 0;
 }
