@@ -9,6 +9,17 @@ void delay(unsigned int mseconds)
 
 int main()
 {
-delay(200);
+    
+    delay(200);         //delays by 200 miliseconds
+    
+    
+    getchar();          //waits for input+enter/enter
+    
+    
+    for(i=0;i<1000000;++i)
+    {
+                        //delays by the time of 1000000 incrementations (depends on computer speed)
+    };
+    
 return 0;
 }
