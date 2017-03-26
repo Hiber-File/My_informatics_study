@@ -41,7 +41,7 @@ printf("\n\n  %d   %d   \n\n",c,b);
 
 
 {
-int a = 6;
+int a = 6;                      // << >>  przesunięcia bitowe   np:
 printf ("6 << 2 = %d\n", a<<2); /* wypisze 24 */
 printf ("6 >> 2 = %d\n", a>>2); /* wypisze 1 */
 }
