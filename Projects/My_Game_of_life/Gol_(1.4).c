@@ -259,6 +259,7 @@ printf("Iteration=%d\n",pow+1+z);
     }
 
 delay(350);                           //control how fast it runs
+system("cls");
 ++pow;
 }while(pow<P);
 
