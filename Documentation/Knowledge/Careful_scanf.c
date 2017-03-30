@@ -8,10 +8,9 @@ return 0;
 
 /*
 Robi on niewiele. W linijce 1 deklarujemy tablicę 100 znaków czyli mogącą przechować
-napis długości 99 znaków. Nie przejmuj się jeżeli nie do końca to wszystko rozumiesz — pojęcia
-takie jak tablica czy ciąg znaków staną się dla Ciebie jasne w miarę czytania kolejnych
-72 ROZDZIAŁ 10. PODSTAWOWE PROCEDURY WEJŚCIA I WYJŚCIA
-rozdziałów. W linijce 2 wywołujemy funkcję scanf(), która odczytuje tekst ze standardowego
+napis długości 99 znaków. 
+
+W linijce 2 wywołujemy funkcję scanf(), która odczytuje tekst ze standardowego
 wejścia. Nie zna ona jednak rozmiaru tablicy i nie wie ile znaków może ona przechować przez
 co będzie czytać tyle znaków, aż napotka biały znak (format %s nakazuje czytanie pojedynczego
 słowa), co może doprowadzić do przepełnienia bufora. Niebezpieczne skutki czegoś
