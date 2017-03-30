@@ -25,6 +25,14 @@ switch ((a%3))
       printf ("Number %d is not divisible by 3\n", a);
       break;
   }
+  
+  
+  
+  for (i = 1 ; i <= 50 ; ++i)     /*even better method*/
+  {
+    if (i%3!=0) continue ;
+    printf ("%d, ", i);
+  }
 
 
 
