@@ -10,7 +10,7 @@ zagnieżdżonych funkcji (funkcji wewnątrz innych funkcji).
 
 
 
-W C zwykle przyjmuje się, że  oznacza poprawne zakończenie funkcji:
+W C zwykle przyjmuje się, że 0 oznacza poprawne zakończenie funkcji:
 return 0; /* funkcja zakończona sukcesem */
 a inne wartości oznaczają niepoprawne zakończenie:
 return 1; /*funkcja zakończona niepowodzeniem */
