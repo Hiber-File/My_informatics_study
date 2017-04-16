@@ -1,7 +1,9 @@
 int pesel_check (char *x)
 {
     int check=0;            //zero = true
-    int suma_k=0;           //suma kontrolna   (zeby nie zaakceptowalo   np: qwertyui9    tylko dlatego ze ostatni warunek sie zgadza)
+    int suma_k=0;           /*suma kontrolna   (zeby nie zaakceptowalo   np: qwertyui9    tylko dlatego ze ostatni warunek sie zgadza)
+                              suma_k   zbieznosc nazw z suma kontrolna zawarta w kazdym numerze PESEL
+                              funkcja nie sprawdza poprawnosci calego peselu, jedynie wpisana date  */
     int luty;               //czy rok jest przestepny
 
     check=(x[0]=='0'||x[0]=='1'||x[0]=='2'||x[0]=='3'||x[0]=='4'||x[0]=='5'||x[0]=='6'||x[0]=='7'||x[0]=='8'||x[0]=='9') ? 0:1;
@@ -134,5 +136,5 @@ int pesel_check (char *x)
         check=1;
     }
 
-    return check;
+    return check;                   //jesli zwraca 0 to znaczy ze sprawdzany pesel jest poprawny (pod katem daty)
 }
