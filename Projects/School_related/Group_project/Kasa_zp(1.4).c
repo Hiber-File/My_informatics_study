@@ -19,9 +19,8 @@ void usun_klienta();	        //usuniecie klienta z bazy danych
 //void sort_kwota();	            //wyswietlanie listy klientów posortowanej po wysokosci pozyczki
 //void zadluzenie();	            //sprawdzanie ile zadluzony jest dany klient
 //void splata_teraz();	        //wyswietlanie listy klientów którzy skoncza splacac pozyczke w tym miesiacu
-void menu();		            //funkcja do obslugi interfejsu
-//void haslo();		            //funkcja odpowiadajaca za zabezpieczenie
 void zapisz ();                 //zapisuje baze danych po wprowadzonych zmianach
+void menu();		            //funkcja do obslugi interfejsu
 //void pomocnicze
 void wielka_litera();           //poprawia na wielka litere, reszta male
 int pesel_check ();             //sprawdza poprawnosc daty w peselu (nie sprawdza sumy kontrolnej) oraz dlugosc podanego peselu
