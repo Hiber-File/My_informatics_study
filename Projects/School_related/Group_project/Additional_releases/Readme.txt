@@ -1,0 +1,1 @@
+Dalsza praca nad projektem:
